@@ -1,0 +1,14 @@
+serviceConfigs:
+  - apiName: "some-api-name"
+    openApiUrl: "hhtp://someurl.com"
+    snapshotFile: null
+    interestedEndpoints:
+      - endpoint: "/carts"
+        method: "GET"
+  - apiName: "some-api-name-2"
+    openApiUrl: "hhtp://someurl-2.com"
+    snapshotFile: null
+    interestedEndpoints:
+      - endpoint: "/campaigns"
+        method: "GET"
+snapshotsDirectory: null
